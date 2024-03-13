@@ -1,38 +1,26 @@
+/* 
+Color Theme Swatches in Hex
+.UI/UX-1-hex { color: #111D40; }
+.UI/UX-2-hex { color: #0B1726; }
+.UI/UX-3-hex { color: #038C8C; }
+.UI/UX-4-hex { color: #13F2F2; }
+.UI/UX-5-hex { color: #F2F2F2; }
+
+Color Theme Swatches in RGBA
+.UI/UX-1-rgba { color: rgba(17, 28, 63, 1); }
+.UI/UX-2-rgba { color: rgba(10, 22, 38, 1); }
+.UI/UX-3-rgba { color: rgba(2, 140, 140, 1); }
+.UI/UX-4-rgba { color: rgba(19, 242, 242, 1); }
+.UI/UX-5-rgba { color: rgba(242, 242, 242, 1); }
+*/
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #111D40;
   color: white;
+  height: 100vh;
+  width: 100vw;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  margin: 0;
 }
